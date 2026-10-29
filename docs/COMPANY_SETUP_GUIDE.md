@@ -159,7 +159,7 @@ Use Android Studio Logcat with these tags when diagnosing problems:
 
 ```text
 FirestoreDetectionRepo
-FirestoreDetectionRepo
+FirestoreDetection
 ```
 
 Also filter by the package name `com.airacare.animalsafety`.
