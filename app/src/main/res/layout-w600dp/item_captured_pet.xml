@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:baselineAligned="false" android:padding="16dp" android:background="@drawable/collection_card_background" android:elevation="2dp">
+ <FrameLayout android:layout_width="240dp" android:layout_height="230dp" android:padding="8dp" android:background="@drawable/collection_image_panel_background">
+  <ImageView android:id="@+id/capturedPetImage" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerInside" android:contentDescription="@string/my_collection_button"/>
+  <ProgressBar android:id="@+id/petImageLoading" android:layout_width="32dp" android:layout_height="32dp" android:layout_gravity="center" android:indeterminateTint="#44D7BA"/>
+  <Button android:id="@+id/petImageRetry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48dp" android:layout_gravity="center" android:text="Retry image" android:visibility="gone"/>
+ </FrameLayout>
+ <LinearLayout android:layout_width="0dp" android:layout_weight="1" android:layout_marginStart="20dp" android:layout_height="wrap_content" android:orientation="vertical">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical">
+ <TextView android:id="@+id/capturedPetTitleText" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:textSize="26sp" android:textStyle="bold" android:textColor="#F3F6F7"/>
+ <TextView android:id="@+id/petConfidence" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:textSize="24sp" android:textStyle="bold" android:textColor="#64E1C6"/>
+ </LinearLayout>
+ <TextView android:id="@+id/capturedPetTimeText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textSize="16sp" android:textColor="#C2CDD2" android:drawableStart="@drawable/ic_collection_time" android:drawablePadding="10dp" />
+<TextView android:id="@+id/capturedPetDistanceText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textSize="16sp" android:textColor="#C2CDD2" android:drawableStart="@drawable/ic_collection_distance" android:drawablePadding="10dp" />
+<TextView android:id="@+id/capturedPetRiskText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textSize="16sp" android:textColor="#C2CDD2" android:drawableStart="@drawable/ic_collection_risk" android:drawablePadding="10dp" android:padding="8dp"/>
+<TextView android:id="@+id/capturedPetStorageText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textSize="16sp" android:textColor="#C2CDD2" android:drawableStart="@drawable/ic_collection_storage" android:drawablePadding="10dp" />
+ <Button android:id="@+id/capturedPetDeleteButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:layout_marginTop="20dp" android:padding="12dp" android:background="@drawable/collection_delete_button_background" android:backgroundTint="@null" android:text="@string/delete_button" android:textAllCaps="false" android:textSize="16sp" android:textColor="#FFA5AD" android:drawableStart="@drawable/ic_collection_trash" android:drawablePadding="8dp"/>
+ </LinearLayout>
+</LinearLayout>

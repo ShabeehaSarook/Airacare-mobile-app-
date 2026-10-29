@@ -1,0 +1,17 @@
+{
+    "status": "template_only_not_valid_for_runtime",
+    "focal_length_pixels": null,
+    "camera_name": "phone_ip_webcam",
+    "camera_source": "http://PHONE_IP:8080/video",
+    "calibration_width": null,
+    "calibration_height": null,
+    "calibration_resolution": null,
+    "known_object_class": "person",
+    "calibration_object": "person",
+    "known_object_height_m": null,
+    "known_height_meters": null,
+    "known_distance_m": null,
+    "known_distance_meters": null,
+    "pixel_height": null,
+    "note": "Template only. Do not use this as config/phone_calibration.json. Create the real file with calibrate_phone_camera.bat using the actual phone IP, measured person height, measured distance, and stable full-body pixel height."
+}

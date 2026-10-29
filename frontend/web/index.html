@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Airacare Web Detection</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="camera-stage">
+        <video id="cameraVideo" playsinline muted></video>
+        <canvas id="overlayCanvas"></canvas>
+        <div class="top-panel">
+          <div>
+            <p class="eyebrow">Airacare Web</p>
+            <h1>Detection</h1>
+          </div>
+          <span id="connectionStatus" class="status-pill">Idle</span>
+        </div>
+        <div id="warningBanner" class="warning-banner" hidden></div>
+      </section>
+
+      <section class="control-panel">
+        <div class="stats-grid">
+          <div>
+            <span>Total</span>
+            <strong id="totalCount">0</strong>
+          </div>
+          <div>
+            <span>Latest</span>
+            <strong id="latestLabel">None</strong>
+          </div>
+          <div>
+            <span>Risk</span>
+            <strong id="latestRisk">N/A</strong>
+          </div>
+        </div>
+
+        <div class="button-row">
+          <button id="startButton" type="button">Start</button>
+          <button id="stopButton" type="button" disabled>Stop</button>
+        </div>
+
+        <div class="target-strip" aria-label="Target classes">
+          <span>person</span>
+          <span>dog</span>
+          <span>cat</span>
+          <span>horse</span>
+          <span>cow</span>
+        </div>
+
+        <div class="history-header">
+          <h2>Recent Detections</h2>
+          <span id="modelStatus">Model not loaded</span>
+        </div>
+        <div id="historyList" class="history-list"></div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd@2.2.3/dist/coco-ssd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web@1.19.2/dist/ort.min.js"></script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

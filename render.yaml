@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: airacare-web-backend
+    runtime: python
+    plan: free
+    buildCommand: pip install -r backend/requirements-web.txt
+    startCommand: cd backend && gunicorn web_backend:app --bind 0.0.0.0:$PORT --workers 1 --threads 2 --timeout 180
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: AIRACARE_BACKGROUND_REMOVAL_ENGINE
+        value: photoroom
+      - key: AIRACARE_MODEL_BACKEND
+        value: android_tflite
+      - key: PHOTOROOM_API_KEY
+        sync: false
+      - key: CLOUDINARY_URL
+        sync: false
+

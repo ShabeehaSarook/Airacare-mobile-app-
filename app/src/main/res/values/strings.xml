@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Airacare Animal Safety</string>
+    <string name="subtitle">Mobile camera preview</string>
+    <string name="status_checking_permission">Checking camera permission</string>
+    <string name="status_starting_camera">Starting camera</string>
+    <string name="status_camera_ready">Camera ready</string>
+    <string name="status_detection_ready">Detecting objects</string>
+    <string name="status_camera_error">Camera could not start</string>
+    <string name="status_camera_interrupted">Camera interrupted. Restoring when available.</string>
+    <string name="status_camera_recovering">Camera interrupted. Trying to recover.</string>
+    <string name="status_camera_recovery_failed">Camera unavailable. Stop and start Driving Mode after the other app releases it.</string>
+    <string name="status_model_error">Model could not load</string>
+    <string name="status_permission_denied">Camera permission denied</string>
+    <string name="permission_title">Camera access required</string>
+    <string name="permission_body">Airacare needs the phone camera to monitor the road view.</string>
+    <string name="permission_button">Allow camera</string>
+    <string name="calibrate_button">Calibrate</string>
+    <string name="driving_mode_start">Start Driving Mode</string>
+    <string name="driving_mode_stop">Stop Driving Mode</string>
+    <string name="status_driving_ready">Ready. Start Driving Mode when mounted safely.</string>
+    <string name="status_driving_stopped">Driving Mode stopped</string>
+    <string name="dashcam_url_hint">MJPEG dashcam URL</string>
+    <string name="dashcam_start">Dashcam</string>
+    <string name="video_pick">Recorded</string>
+    <string name="safety_map">Map</string>
+    <string name="database_button">DB</string>
+    <string name="detection_history_title">Detection Database</string>
+    <string name="detection_history_summary_empty">Saved detections: 0</string>
+    <string name="detection_history_empty">No detections saved yet. Start Driving Mode and let the app detect a class such as dog, cow, or cat.</string>
+    <string name="back_button">Back</string>
+    <string name="refresh_button">Refresh</string>
+    <string name="firebase_test_button">Test Firebase</string>
+    <string name="firebase_test_ready">Firebase test not run</string>
+    <string name="benchmark_start">Benchmark</string>
+    <string name="benchmark_stop">Stop log</string>
+    <string name="false_positive_short">FP</string>
+    <string name="false_negative_short">FN</string>
+    <string name="video_stop">Stop video</string>
+    <string name="status_video_ready">Recorded video ready</string>
+    <string name="status_video_error">Recorded video failed</string>
+    <string name="status_video_complete">Recorded video complete</string>
+    <string name="dashcam_stop">Phone cam</string>
+    <string name="status_dashcam_connected">Dashcam connected</string>
+    <string name="status_dashcam_error">Dashcam stream failed</string>
+    <string name="calibration_missing">DIST: N/A</string>
+    <string name="calibration_ready">Distance calibrated</string>
+    <string name="calibration_collecting">Hold still for calibration</string>
+    <string name="capture_store_button">Capture &amp; Store</string>
+    <string name="my_collection_button">My Collection</string>
+    <string name="filter_all">All</string>
+    <string name="filter_dogs">Dogs</string>
+    <string name="filter_cats">Cats</string>
+    <string name="my_collection_empty">No saved dog/cat stickers yet.</string>
+    <string name="delete_button">Delete</string>
+    <string name="save_to_collection">Save to Collection</string>
+    <string name="cancel_button">Cancel</string>
+</resources>
+
+
+
+
+
+
+
+

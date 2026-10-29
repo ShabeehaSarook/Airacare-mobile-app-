@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "934286949654",
+    "project_id": "airacare-animal-safety",
+    "storage_bucket": "airacare-animal-safety.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934286949654:android:a0c98c97bd4568e95ee437",
+        "android_client_info": {
+          "package_name": "com.airacare.animalsafety"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR_Bt2tltKxSfLSvmlW5mQ0uwxlmafy3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

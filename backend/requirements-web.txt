@@ -1,0 +1,8 @@
+ultralytics
+opencv-python-headless
+numpy
+flask
+gunicorn
+ai-edge-litert>=2.2.0
+cloudinary
+requests
