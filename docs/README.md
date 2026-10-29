@@ -4,6 +4,7 @@
 
 - [Setup and handover](SETUP.md)
 - [Complete handover guide](HANDOVER.md)
+- [Company setup guide](COMPANY_SETUP_GUIDE.md)
 - [Folder and source-file map](PROJECT_MAP.md)
 - [Current architecture](ARCHITECTURE.md)
 - [Testing and troubleshooting](TESTING.md)

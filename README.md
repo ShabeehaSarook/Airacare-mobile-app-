@@ -7,10 +7,11 @@ Package: `com.airacare.animalsafety`.
 
 1. Follow [Setup](docs/SETUP.md) to build on your own computer.
 2. Read the [Handover guide](docs/HANDOVER.md) for the complete system overview.
-3. Read [Project map](docs/PROJECT_MAP.md) to find the right files.
-4. Read [Current architecture](docs/ARCHITECTURE.md) for the data flow.
-5. Use [Testing and troubleshooting](docs/TESTING.md) before a demonstration.
-6. See [Documentation index](docs/README.md) for retained plans and references.
+3. Read the [Company setup guide](docs/COMPANY_SETUP_GUIDE.md) for step-by-step setup.
+4. Read [Project map](docs/PROJECT_MAP.md) to find the right files.
+5. Read [Current architecture](docs/ARCHITECTURE.md) for the data flow.
+6. Use [Testing and troubleshooting](docs/TESTING.md) before a demonstration.
+7. See [Documentation index](docs/README.md) for retained plans and references.
 
 ## Current source configuration
 
